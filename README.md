@@ -1,6 +1,11 @@
 # Welcome to the AE Listing Scrapper!
 
 This is a simple tool written in F# using .Net Core 3.1.
+
+## About
+This is a web scraping tool to download an AliExpress item listing and extract similar listings to the item from other AliExpress merchants.
+The output contains the description, URL and pricing of other similar listings.
+The data could then be imported to perform price comparisons and other analysis.
 This tool is dependent on the following 3rd party components:
 
  - [Puppeteer Sharp](https://www.puppeteersharp.com)
